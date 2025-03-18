@@ -1,0 +1,165 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Background */
+body {
+    background: #f8f8f8;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Main Container */
+#container {
+    background: #ffffff;
+    width: 90%;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(183, 28, 28, 0.2);
+    border-top: 5px solid #b71c1c;
+}
+
+/* Headings */
+h1, h2 {
+    color: #b71c1c;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Mood Picker */
+#mood-picker {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+/* Mood Buttons */
+.mood-btn {
+    background: linear-gradient(135deg, #b71c1c, #ff6f61);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(183, 28, 28, 0.3);
+}
+
+.mood-btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #8e0000, #ff3b3b);
+}
+
+/* Mood History */
+#mood-history {
+    margin-top: 20px;
+    padding: 15px;
+    background: #fff5f5;
+    border-radius: 12px;
+    min-height: 80px;
+    font-size: 16px;
+    color: #333;
+    border-left: 4px solid #b71c1c;
+    box-shadow: 0 0 15px rgba(183, 28, 28, 0.1);
+}
+
+/* Mood Entry */
+.mood-entry {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 12px;
+    width: 100%;
+    max-width: 350px;
+    box-shadow: 0 4px 10px rgba(183, 28, 28, 0.15);
+    transition: all 0.2s ease-in-out;
+    border: 2px solid #ffdddd;
+}
+
+.mood-entry:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(183, 28, 28, 0.2);
+}
+
+/* Mood Text */
+.mood-entry p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #b71c1c;
+    margin: 0;
+}
+
+/* Timestamp */
+.mood-entry .timestamp {
+    font-size: 14px;
+    color: #777;
+    font-style: italic;
+}
+
+/* Button Container */
+.mood-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+/* General Button Styles */
+.mood-entry button {
+    flex: 1;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+/* Edit Button */
+.edit-btn {
+    background: #ffcc00;
+    color: #222;
+}
+
+.edit-btn:hover {
+    background: #ff9900;
+}
+
+/* Delete Button */
+.delete-btn {
+    background: #ff3333;
+    color: white;
+}
+
+.delete-btn:hover {
+    background: #cc0000;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    #container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .mood-btn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .mood-entry {
+        max-width: 100%;
+    }
+}
