@@ -15,7 +15,7 @@ A simple and interactive Mood Tracker application that allows users to log, edit
     ![User Review](review.png)
 
 ## 🌍 Live Demo
-
+    link:   (https://mood-tracker-mauve-five.vercel.app/)
 
 
 ## 🛠️ Technologies Used
@@ -25,9 +25,9 @@ A simple and interactive Mood Tracker application that allows users to log, edit
 - JavaScript (DOM Manipulation & LocalStorage)
 
 ## Repository URL
-
+    link: (https://github.com/Rocky4512/mood-tracker)
 
 
 ---
-Made with ❤️ by [Rohit Agrawal](https://github.com/your-username)
+Made with ❤️ by [Rohit Agrawal](https://github.com/Rocky4512)
 
